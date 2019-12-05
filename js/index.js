@@ -13,18 +13,6 @@ mouseOver.addEventListener("mouseleave", () => {
 
 // ****** END OF MOUSE OVER **********
 
-// ? Key Down
-// const keyDown = documente.querySelector(".intro h2");
-// keyDown.addEventListener("keydown", logKey => {
-//   function logKey() {
-//     alert("Stop Messing Around on Here");
-//   }
-// });
-
-// ! Wheel
-// const wheel = document.querySelector(".img-content img");
-// wheel.onwheel = "zoom";
-
 // ! drag / drop
 
 // ! load
@@ -42,7 +30,7 @@ window.addEventListener("resize", () => {
 // ! Select
 
 // !dblclick
-const double = document.querySelector(".main-navigation");
+const double = document.querySelector(".nav a");
 double.addEventListener("dblclick", () => {
   double.style.color = "purple";
   double.classList.toggle;
